@@ -1,0 +1,27 @@
+# Python environments and interpreter artifacts
+.venv/
+.depth_runtime/
+.tmp/
+__pycache__/
+*.py[cod]
+
+# Downloaded/vendor model implementations and weights
+third_party/
+models/**/*.pth
+models/**/*.task
+models/**/*.pkl
+
+# URFD image/depth data is large and subject to the dataset's license.
+data/urfd/raw/
+data/urfd/depth_sample/
+data/urfd/metadata_sample/
+
+# Generated outputs, logs, and local experiment results
+outputs/
+*.log
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

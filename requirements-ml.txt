@@ -1,0 +1,2 @@
+# The machine-learning module uses NumPy, already installed in the project venv.
+# No additional ML packages are required.
